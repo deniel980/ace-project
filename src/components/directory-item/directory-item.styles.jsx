@@ -35,8 +35,8 @@ export const Body = styled.div`
 `;
 
 export const DirectoryItemContainer = styled.div`
-  min-width: 30%;
-  height: 240px;
+  min-width: 35%;
+  height: 25vh;
   flex: 1 1 auto;
   display: flex;
   align-items: center;
