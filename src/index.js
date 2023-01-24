@@ -11,7 +11,7 @@ import reportWebVitals from "./reportWebVitals";
 import App from "./App";
 import { store, persistor } from "./store/store";
 import { stripePromise } from "./utils/stripe/stripe.utils";
-
+import * as serviceWorkerRegistration from './serviceWorkerRegistration'
 
 
 // const rootElement = document.getElementById("root");
@@ -49,4 +49,5 @@ root.render(
 
 );
 
+serviceWorkerRegistration.register();
 reportWebVitals();
